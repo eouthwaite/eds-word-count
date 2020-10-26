@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle eds-word-count",
+        "command": "eds-word-count:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "eds-word-count",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "eds-word-count:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
